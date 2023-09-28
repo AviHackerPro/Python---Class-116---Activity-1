@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My webpage
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            This is {{index_variable}}
+        </h1>
+
+        <img src = "{{url_for("static", filename = "Flask.png")}}">
+        </img>
+
+        <p>
+            In this class, we will learn to create a flask app using templates. I have used render template function from the flask module.
+        </p>
+
+        <p>
+            Let's go to the webpage
+        </p>
+
+        <form>
+            <label for = "fname">
+                First Name:
+            </label>
+
+            <input type = "text", id = "fname">
+            </input>
+        </form>
+
+        <button type = "button">
+            Click Me!
+        </button>
+    </body>
+</html>
